@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Xtron Pro docs'
+project = 'Xtron docs'
 copyright = '2021, Ovobot'
 author = 'Ovobot'
 

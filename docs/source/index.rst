@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Xtron Pro's documentation!
+Welcome to Xtron's documentation!
 ======================================
 
 Xtron Pro is a modular console produced by Ovobot.
@@ -20,18 +20,18 @@ Xtron Pro is a modular console produced by Ovobot.
    intro
    hardware
    makecode
+   xmaker
    extensions
    q-and-a
 
    
 
-Community
+Community and Social Media
 ----------
 
-Join our community:
-
 1. Discord
-#. Instagram
+#. `Instagram <https://www.instagram.com/ovobot.cc/>`_
+#. `Twitter <https://twitter.com/ovobot_cc>`_
 
 
 Links

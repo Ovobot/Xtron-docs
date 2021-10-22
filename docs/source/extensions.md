@@ -1,4 +1,4 @@
-## Extensions
+## Extension Modules
 
 Xtron Pro supports following modules:
 
