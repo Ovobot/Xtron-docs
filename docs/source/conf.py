@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Xtron docs'
+project = 'Xtron Pro docs'
 copyright = '2021, Ovobot'
 author = 'Ovobot'
 
@@ -29,6 +29,7 @@ author = 'Ovobot'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    "myst_parser"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
