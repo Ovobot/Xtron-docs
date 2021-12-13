@@ -11,23 +11,16 @@ Xtron Pro is a modular console produced by Ovobot.
 .. image:: _static/ovobot.png
   :width: 400px
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: FIRST STEPS:
    
-   intro
+   tutorial
    hardware
-   makecode
-   xmaker
-   extensions
    q-and-a
 
-   
-
 Community and Social Media
-----------
+--------------------------
 
 1. Discord
 #. `Instagram <https://www.instagram.com/ovobot.cc/>`_
@@ -35,7 +28,7 @@ Community and Social Media
 
 
 Links
-----------
+--------------------------
 
 1. `Ovobot official homepage <https://ovobot.cn/>`_ 
 #. `Ovobot Store <https://store.ovobot.cc/>`_

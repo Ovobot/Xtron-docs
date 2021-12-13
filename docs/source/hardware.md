@@ -1,6 +1,16 @@
-## Hardware
+# Hardware
 
-The hardware specifications of Xtron Pro are:
+## Block Diagram
+
+Xtron Pro is composed of core and gamepad, the core is the programmable unit, and the gamepad is a peripheral. when they are connected together, it becomes a programmable game console, Tthe core can be connected to the gamepad in two ways, portrait and landscape, so you can build games in either orientation.
+
+The core can also work alone, and it can be turned into a watch after putting on the silicone shell, you can make your own watch applications.
+
+There is an 8-pin pogopin connector on the back of the core. In addition to the handle, it can also connect to many other peripherals.
+
+![](_static/xtronpro-system.png)
+
+## Specifications
 
 | Specifications      | Description                                       |
 | ------------------- | ------------------------------------------------- |

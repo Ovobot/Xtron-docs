@@ -40,11 +40,13 @@ The following pictue is the screenshot of falling duck game.
 <img src="_static/arcade-falling-duck.png" alt="" width="300"/>
 </p>
 
-### Switch between the bootloader and the user app
+### Switch between them
+
+Press Reset button on the core to switch between the bootloader and the user app.
 
 ## Download a game
 
-### Go to arcade.makecode.com
+### Go to MakeCode Arcade
 
 Go to [arcade.makecode.com](https://arcade.makecode.com) web application, scroll down to the **Blocks Games** section, select the first one - Falling Duck, then you will see a game introduction card.
 
@@ -54,7 +56,7 @@ Press Open Example button to enter the Editor, where you can code in the Editor,
 
 ![](_static/arcade-editor.png)
 
-Press download button to download the game, scroll down to select the Xtron Pro in the Hardware list page. Then you will get the game on you computer.
+Press download button to download the game, scroll down to select the Xtron Pro in the Hardware list page. Then you will get the game file on you computer.
 
 ![](_static/arcade-hardware-xtronpro.png)
 
@@ -86,9 +88,39 @@ The XTRON drive disk contains the following device related files defaultly that 
 
 > The HTML document you click will go to the MakeCode Arcade website. 
 
+These files are genarated automatically, and can not be deleted, so keep them.
+
 ### Copy
 
 Copy the game file to the XTRON drive disk, it will take a while to download the game to the device, the game will execute automatically after the download is complete.
+
+Yes, the download procedure is simple like copy and paste, it not only save the game to the device internel storage, but also upgrade the flash of the MCU on the devce.
+
+### WebUSB
+
+In addition to copy and paste, you can also download the game via WebUSB. 
+
+This is a new technology that allows your web browser to directly interact with connected devices over USB, meaning that you don't need to download your uf2 file before flashing it to the Xtron Pro! Also, the games are not stored in the inernal storage, when you need to repeatedly download the game to the device for testing, you can use this method.
+
+
+
+Step 1: Click the download option button to the right of the download button to choose hardware.
+
+<p align="center">
+<img src="_static/choose-hardware.png" alt="" width="500"/>
+</p>
+
+Step 2: Choose Xtron Pro in the hardware list, and then click the download option button again to connet hardware.
+
+<p align="center">
+<img src="_static/connect-hardware.png" alt="" width="500"/>
+</p>
+
+Step3: Select Ovobot Xtron in the pop-up dialog box of the browser and click the connect button.
+
+<p align="center">
+<img src="_static/pair-hardware.png" alt="" width="500"/>
+</p>
 
 ## Make a game
 
