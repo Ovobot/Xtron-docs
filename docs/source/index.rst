@@ -17,7 +17,13 @@ Xtron Pro is a modular console produced by Ovobot.
    
    tutorial
    hardware
+   features
+   pxt-extensions
    q-and-a
+
+.. toctree::
+   :maxdepth: 2
+   :caption: FEATURE OVERVIEW:
 
 Community and Social Media
 --------------------------

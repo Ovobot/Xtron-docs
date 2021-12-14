@@ -135,3 +135,11 @@ You can start making a game from the tutorial or skillmap on the MakeCode Arcade
 or
 
 [Start from skillmaps](https://arcade.makecode.com/skillmaps)
+
+## Where to go from here
+
+This is the end of the tutorial. You started by learning the basic use of Xtron Pro and downloading a game to it, following the tutorial to make a game, and then running the game on Xtron Pro.
+
+Here you have some resources to continue learning about Xtron Pro and MakeCode Arcade.
+
+- You can learn more about the functionality of Xtron Pro by going over our Xtron Pro features page.
