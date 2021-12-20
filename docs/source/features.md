@@ -23,6 +23,20 @@ Xtron Pro offers many hardware resources for you to make a game, you can use the
 
 ## Real Time Clock
 
+Xtron Pro is built-in a real-time clock (RTC) ic, which is a low power clock/date device with a programmable time-of-day alarm and a programmable interupt output.
+
+The RTC ic is connected to the mcu of Xtron Pro with I2C bus and a interupt line. The mcu can communicate with the ic through the i2c bus, and the interupt line is for alarm use.
+
+<p align="center">
+<img src="_static/xtron-pro-rtc.png" alt="" width="400"/>
+</p>
+
+With the RTC function, You can make a watch application to run on the Xtron Pro. Once you calibrate the time, it will run even if you turn off the device.
+
+You can import [pxt-xtronpro-rtc](pxt-extensions.md) extension to MakeCode Arcade to add a RTC catogory in the toolbox, it has a bunch of blocks for real-time clock.
+
+Learn more about [Real Time Clock](real-time-clock.md)
+
 ## Wi-Fi Module
 
 ## IoT

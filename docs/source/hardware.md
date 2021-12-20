@@ -2,7 +2,7 @@
 
 ## Block Diagram
 
-Xtron Pro is composed of core and gamepad, the core is the programmable unit, and the gamepad is a peripheral. when they are connected together, it becomes a programmable game console, Tthe core can be connected to the gamepad in two ways, portrait and landscape, so you can build games in either orientation.
+Xtron Pro is composed of core and gamepad, the core is the programmable unit, and the gamepad is a peripheral. when they are connected together, it becomes a programmable game console, The core can be connected to the gamepad in two ways, portrait and landscape, so you can build games in either orientation.
 
 The core can also work alone, and it can be turned into a watch after putting on the silicone shell, you can make your own watch applications.
 
