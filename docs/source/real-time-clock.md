@@ -78,3 +78,6 @@ Click the below link you will go to MakeCode Arcade simulator, which will show t
 
 ## Tutorial
 
+Click the below tutorial link to make your own watch application.
+
+[Tutorial](https://arcade.makecode.com/#tutorial:https://github.com/tsunyi/pxt-xtronpro-rtc/turorial.md)
