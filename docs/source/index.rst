@@ -39,7 +39,7 @@ Xtron Pro feature overview
 Community and Social Media
 --------------------------
 
-1. Discord
+1. `Discord <https://discord.com/invite/vQPp6NHnb4>`_
 #. `Instagram <https://www.instagram.com/ovobot.cc/>`_
 #. `Twitter <https://twitter.com/ovobot_cc>`_
 
