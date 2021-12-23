@@ -14,6 +14,14 @@ The extension can be added to MakeCode Arcade.
 
 ## ``pxt-xtronpro-util``
 
+As the name says, this extension has a bunch of utilities for Xtron Pro, includes additional buttons and step counter. This extention will add two more button options (C and start) to on [A] button [pressed] and is [A] button pressed blocks and a steps block in the **Extra** section under the **Controller** category in the toolbox.
+
+Import this extension with the URL:
+
+> [https://github.com/tsunyi/pxt-xtronpro-util](https://github.com/tsunyi/pxt-xtronpro-util)
+
+Learn more about [pxt-xtronpro-util]
+
 ## ``pxt-xtronpro-rtc``
 
 This extension is for Xtron Pro's real-time clock function, which is a low power clock/date device with a programmable time-of-day alarm and a programmable interupt output.

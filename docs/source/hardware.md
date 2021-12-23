@@ -52,3 +52,20 @@ There is an 8-pin pogopin connector on the back of the core. In addition to the 
 | **Connectors**      | USB-C, 4PIN Port, 8PIN Pogopin, Jacdac Phone Jack |
 | **Battery**         | Lipo, 500mAh                                      |
 | **Weight**          | 70g                                               |
+
+## Diagram
+
+1. The Core
+2. The GamePad
+3. Power button
+4. Reset button
+5. Light sensor
+6. LED indicator
+7. C button
+8. Menu Button
+9. Direction buttons
+10. A, B buttons
+11. Pogopin connector
+12. USB Type-C
+13. I2C connector
+14. Jacdac connector
