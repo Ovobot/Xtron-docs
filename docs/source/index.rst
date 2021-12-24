@@ -36,6 +36,16 @@ Xtron Pro feature overview
    makecode-arcade
    real-time-clock
 
+Related Resources
+-----------------
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: RELATED Resources
+
+   makecode-arcade-extensions
+
 Community and Social Media
 --------------------------
 
