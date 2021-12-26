@@ -4,6 +4,22 @@ The real-time clock is one of the main functions of Xtron Pro. Xtron Pro is comp
 
 The real-time clodk is a low power clock/date device with a programmable time-of-day alarm and a programmable interupt output. To use of the RTC function, first you should import [pxt-xtronpro-rtc](pxt-extensions.md) extension to MakeCode Arcade, whitch will add a RTC catogory in the toolbox.
 
+## Example
+
+The following example will display the time, date and alarm on the screen.
+
+Click the below link you will go to MakeCode Arcade simulator, which will show the example, then click the **Edit Code** button to open the Editor to modify or download the example.
+
+![](_static/watch-example-makecode.png)
+
+[RTC Example](https://makecode.com/_99UJk42Ds2LP)
+
+## Tutorial
+
+Click the below tutorial link to make your own watch application.
+
+[Tutorial](https://arcade.makecode.com/#tutorial:https://github.com/tsunyi/pxt-xtronpro-tutorials/rtc)
+
 ## API
 
 ### time
@@ -65,19 +81,3 @@ Get the alarm repeat mode of the RTC.
 Get the alarm On/Off status.
 
 [Learn More](https://arcade.makecode.com/---docs?md=%23%20is%20Alarm%20On%0A%0AGet%20the%20alarm%20On%2FOff%20status%0A%0A%60%60%60sig%0Artc.isAlarm()%0A%60%60%60%0A%0A%23%23%20Return%0A%0A*%20a%20%5Bboolean%5D(%2Ftypes%2Fboolean)%20to%20get%20the%20activation%20of%20the%20alarm.%20A%20%60%60True%60%60%20value%20means%20the%20alarm%20is%20**ON**%20and%20a%20%60%60False%60%60%20value%20means%20the%20alarm%20is%20**OFF**.%0A%0A%23%23%20Example%20%23example%0A%0A%60%60%60blocks%0Alet%20alarm%20%3D%20sprites.create(img%60%0A%20%20%20%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20%0A%20%20%20%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20.%20%0A%20%20%20%20.%20.%20.%20.%20.%20.%20.%20.%20.%20b%205%205%20b%20.%20.%20.%20%0A%20%20%20%20.%20.%20.%20.%20.%20.%20b%20b%20b%20b%20b%20b%20.%20.%20.%20.%20%0A%20%20%20%20.%20.%20.%20.%20.%20b%20b%205%205%205%205%205%20b%20.%20.%20.%20%0A%20%20%20%20.%20b%20b%20b%20b%20b%205%205%205%205%205%205%205%20b%20.%20.%20%0A%20%20%20%20.%20b%20d%205%20b%205%205%205%205%205%205%205%205%20b%20.%20.%20%0A%20%20%20%20.%20.%20b%205%205%20b%205%20d%201%20f%205%20d%204%20f%20.%20.%20%0A%20%20%20%20.%20.%20b%20d%205%205%20b%201%20f%20f%205%204%204%20c%20.%20.%20%0A%20%20%20%20b%20b%20d%20b%205%205%205%20d%20f%20b%204%204%204%204%20b%20.%20%0A%20%20%20%20b%20d%20d%20c%20d%205%205%20b%205%204%204%204%204%204%204%20b%20%0A%20%20%20%20c%20d%20d%20d%20c%20c%20b%205%205%205%205%205%205%205%20b%20.%20%0A%20%20%20%20c%20b%20d%20d%20d%20d%20d%205%205%205%205%205%205%205%20b%20.%20%0A%20%20%20%20.%20c%20d%20d%20d%20d%20d%20d%205%205%205%205%205%20d%20b%20.%20%0A%20%20%20%20.%20.%20c%20b%20d%20d%20d%20d%20d%205%205%205%20b%20b%20.%20.%20%0A%20%20%20%20.%20.%20.%20c%20c%20c%20c%20c%20c%20c%20c%20b%20b%20.%20.%20.%20%0A%20%20%20%20%60%2C%20SpriteKind.Player)%0Agame.onUpdate(function%20()%20%7B%0A%20%20%20%20if%20(rtc.isAlarm())%20%7B%0A%20%20%20%20%20%20%20%20alarm.sayText(%22The%20alarm%20is%20on%22)%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20alarm.sayText(%22The%20alarm%20is%20off%22)%0A%20%20%20%20%7D%0A%7D)%0A%60%60%60%0A%0A%60%60%60package%0Artc%3Dgithub%3Atsunyi%2Fpxt-xtronpro-rtc%0A%60%60%60)
-
-## Example
-
-The following example will display the time, date and alarm on the screen.
-
-Click the below link you will go to MakeCode Arcade simulator, which will show the example, then click the **Edit Code** button to open the Editor to modify or download the example.
-
-![](_static/watch-example-makecode.png)
-
-[RTC Example](https://makecode.com/_99UJk42Ds2LP)
-
-## Tutorial
-
-Click the below tutorial link to make your own watch application.
-
-[Tutorial](https://arcade.makecode.com/#tutorial:https://github.com/tsunyi/pxt-xtronpro-tutorials/rtc)
