@@ -2,7 +2,7 @@
 
 The real-time clock is one of the main functions of Xtron Pro. Xtron Pro is composed of the core and the gamepad, the core can work as a watch with a silicone case. With the real-time clock function, you can write basic clock applications.
 
-The real-time clodk is a low power clock/date device with a programmable time-of-day alarm and a programmable interupt output. To use of the RTC function, first you should import [pxt-xtronpro-rtc](pxt-extensions.md) extension to MakeCode Arcade, whitch will add a RTC catogory in the toolbox.
+The real-time clock is a low power clock/date device with a programmable time-of-day alarm and a programmable interupt output. To use of the RTC function, first you should load [pxt-xtronpro-rtc](pxt-extensions.md) extension to MakeCode Arcade, which will add a RTC catogory in the toolbox.
 
 ## Example
 
